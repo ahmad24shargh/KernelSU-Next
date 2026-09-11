@@ -313,7 +313,7 @@ jobs:
             if [ -f $CONFIG/common/arch/arm64/configs/topaz_defconfig ];then
               defconfig="$GITHUB_WORKSPACE/$CONFIG/common/arch/arm64/configs/topaz_defconfig"
             elif [ -f $CONFIG/common/arch/arm64/configs/khaje-perf_defconfig ];then
-              defconfig="$GITHUB_WORKSPACE/$CONFIG/common/arch/arm64/configs/unified_defconfig"   
+              defconfig="$GITHUB_WORKSPACE/$CONFIG/common/arch/arm64/configs/khaje-perf_defconfig"   
             elif [ -f $CONFIG/common/arch/arm64/configs/unified_defconfig ];then
               defconfig="$GITHUB_WORKSPACE/$CONFIG/common/arch/arm64/configs/unified_defconfig"
             else
